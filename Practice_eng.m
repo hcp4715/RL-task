@@ -19,7 +19,7 @@ end
 
 % cogent parameters
 %config_display(1,2,[0 0 0],[1 1 1], 'Arial', 55, 1);    %easier to work on - window mode
-config_display(1,3,[0 0 0],[1 1 1], 'Arial', 55, 1);     
+config_display(1,3,[0 0 0],[1 1 1], 'Arial', 55, 1,0);     
 config_log;
 config_keyboard(100,5,'exclusive');
 
@@ -95,7 +95,9 @@ gain(1,:,:)=gain_B;
 gain(2,:,:)=gain_A;
 
 side_A=zeros(4,totaltrial4);
-% create side vectors
+% create side vectors, (only for the "correct" option)
+% n of rows    = types of pairs; 
+% n of columns = trials of each type  
 for i=1:4
     temp=[];
     for j=1:totaltrial16
@@ -147,9 +149,17 @@ aborted = false;
 
 for ntrial = 1:totaltrial           
 
-    condition=pair(ntrial);
-    counter(1,condition)=counter(1,condition)+1;
-    position=counter(1,condition);
+    condition=pair(ntrial); % which pair (1 of 4: gain-complete; gain-partial; loss-complet; loss-partial)
+    
+    % a matrix for counting each condition, recording the n_th trial for
+    % each condition.
+    counter(1,condition)=counter(1,condition)+1; 
+    
+    % A very tricky way to get a coordination for retrieval the column position from
+    % side_A: that is, for the n trials of condition i, i will retrival the
+    % n column from side_A later, combined with condition, it form a
+    % complete coordination to locate the position in side_A.
+    position=counter(1,condition);               
 
 
     % fixation
@@ -197,7 +207,10 @@ for ntrial = 1:totaltrial
     wait(sidetime);                       
   
     % correct=choice toward the "good stim" (1 or 0)
-    correct(ntrial)=side_A(condition,position)==choice(ntrial);
+    % HCP: here, it is clear that side_A is the position matrix of the correct
+    % option. The accuracy of the current trial is determined by position
+    % and choice (left or right)
+    correct(ntrial)= side_A(condition,position) ==choice(ntrial);
 
     % feedbacks no response 0 and response 1 or 0
     if  choice(ntrial)==0;

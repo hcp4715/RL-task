@@ -15,7 +15,7 @@ addpath(genpath('.\task_COUNTRL\Cogent2000v1.32\'));
 %%
 
 % get participant and task information information
-argindlg = inputdlg({'Subject number','Practice Session? 1=Yes/0=No'},'CRL',1,{'','','','',''})
+argindlg = inputdlg({'Subject number','Practice Session? 1=Yes/0=No'},'CRL',1,{'','','','',''});
 
 if isempty(argindlg) || isempty(argindlg{1}) || isempty(argindlg{2})
     error('experiment cancelled!');

@@ -1,0 +1,32 @@
+Cog2000 log file Fri May 24 21:28:46 2019
+gprim v1.32 Compiled:Feb  5 2013 (GLib DirectDraw v7 DX12.0 Compiled:Feb  5 2013)
+Display:1024x768x32 59.92Hz
+Attaching D:\HCP_cloud\Exps\P2_Resili_SES\05_EmoReg_Model\Pilot_exp\Proc\task_COUNTRL\Cogent2000v1.32\Toolbox\CogInput.mexw64
+CogInput v1.05 Compiled: May 20 2010
+2	[2]	:	COGENT START
+2160	[2158]	:	Key	71	DOWN	at	2154    
+4487	[2327]	:	Key	97	DOWN	at	4486    
+8433	[3946]	:	Key	97	DOWN	at	8431    
+12410	[3977]	:	Key	97	DOWN	at	12408   
+16008	[3598]	:	Key	97	DOWN	at	16004   
+19530	[3522]	:	Key	98	DOWN	at	19529   
+23289	[3759]	:	Key	97	DOWN	at	23289   
+27058	[3769]	:	Key	98	DOWN	at	27057   
+30603	[3545]	:	Key	98	DOWN	at	30601   
+34139	[3536]	:	Key	98	DOWN	at	34138   
+37952	[3813]	:	Key	98	DOWN	at	37951   
+41483	[3531]	:	Key	98	DOWN	at	41483   
+45150	[3667]	:	Key	97	DOWN	at	45150   
+48989	[3839]	:	Key	98	DOWN	at	48989   
+52652	[3663]	:	Key	98	DOWN	at	52652   
+56277	[3625]	:	Key	97	DOWN	at	56276   
+59868	[3591]	:	Key	97	DOWN	at	59867   
+63749	[3881]	:	Key	97	DOWN	at	63749   
+67436	[3687]	:	Key	97	DOWN	at	67436   
+70863	[3427]	:	Key	98	DOWN	at	70863   
+74837	[3974]	:	Key	98	DOWN	at	74837   
+78391	[3554]	:	Key	97	DOWN	at	78390   
+82028	[3637]	:	Key	97	DOWN	at	82028   
+85177	[3149]	:	Key	52	UP	at	85177   
+85887	[710]	:	Key	52	DOWN	at	85886   
+85941	[54]	:	COGENT STOP

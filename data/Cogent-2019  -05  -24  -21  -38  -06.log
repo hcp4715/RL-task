@@ -1,0 +1,18 @@
+Cog2000 log file Fri May 24 21:38:06 2019
+gprim v1.32 Compiled:Feb  5 2013 (GLib DirectDraw v7 DX12.0 Compiled:Feb  5 2013)
+Display:1024x768x32 59.92Hz
+Attaching D:\HCP_cloud\Exps\P2_Resili_SES\05_EmoReg_Model\Pilot_exp\Proc\task_COUNTRL\Cogent2000v1.32\Toolbox\CogInput.mexw64
+CogInput v1.05 Compiled: May 20 2010
+2	[2]	:	COGENT START
+3738	[3736]	:	Key	71	DOWN	at	3733    
+10990	[7252]	:	Key	71	DOWN	at	10988   
+11146	[156]	:	Key	71	UP	at	11144   
+18906	[7760]	:	Key	97	DOWN	at	18904   
+22005	[3099]	:	Key	97	DOWN	at	22000   
+25406	[3401]	:	Key	70	UP	at	25406   
+40120	[14714]	:	Key	70	DOWN	at	40119   
+40204	[84]	:	Key	56	DOWN	at	40204   
+40287	[83]	:	Key	70	UP	at	40287   
+40352	[65]	:	Key	56	UP	at	40351   
+40906	[554]	:	Key	52	DOWN	at	40906   
+40918	[12]	:	COGENT STOP
